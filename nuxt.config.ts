@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   app: {
-    baseURL: '/', // ローカル生成時は '/' に
+    baseURL: '/clicker-2/', 
   },
   nitro: {
     preset: 'static',
